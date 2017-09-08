@@ -20,5 +20,18 @@ namespace Algorithmic.Regular
             }
             Console.WriteLine(string.Join(",", array));
         }
+
+        public void Fun2(int[] array)
+        {
+            var sum = 0;
+            for (var i = 0; i <= array.Length - 1; i++)
+            {
+                sum = sum + array[i];
+            }
+
+            var result = sum / array.Length;
+            Console.WriteLine($"Delimer is: {result}");
+            Console.Read();
+        }
     }
 }
