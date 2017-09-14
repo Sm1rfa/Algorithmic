@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Net.NetworkInformation;
 
 namespace Algorithmic.Regular
 {
@@ -56,6 +57,19 @@ namespace Algorithmic.Regular
             }
 
             return nearest;
+        }
+
+        public bool ExistsInArray(int[] ints, int k)
+        {
+            if (ints == null)
+            {
+                ints = new int[] { 1, k };
+            }
+
+            var descorder = ints.OrderByDescending(x => x);
+            var result = descorder.Contains(k);
+
+            return result;
         }
     }
 }
