@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Algorithmic.Regular
+namespace Algorithmic.KnownIssues
 {
     public class MatchingParentheses
     {

@@ -34,5 +34,11 @@ namespace Algorithmic.Regular
             double j = ii - kk;
             Console.WriteLine(j);
         }
+
+        public void CircleAreaByRadius(double r)
+        {
+            var result = 3.14 * r * r;
+            Console.WriteLine($"Circle are is: {result}");
+        }
     }
 }

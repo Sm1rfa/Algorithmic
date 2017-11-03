@@ -1,4 +1,4 @@
-﻿namespace Algorithmic.Regular
+﻿namespace Algorithmic.KnownIssues
 {
     public class Palindrome
     {
